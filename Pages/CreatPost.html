@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание поста</title>
+    <link rel="stylesheet" href="CreatPost.css">
+</head>
+<body>
+
+  
+    <div class="div">
+    <div class="main-search">
+        <h1 class="main-search--logo">BeatFead</h1>
+            <br>
+        <h1 class="main-search--heading">Главная</h1>
+        <h1 class="main-search--heading">Профиль</h1>
+        <h1 class="main-search--heading">Создать пост</h1>
+        <h1 class="main-search--heading">Чарты</h1>
+    </div>
+    
+    <div class="form-container">
+        <h1>Создание поста</h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="track-name">Название трека</label>
+            <input type="text" id="track-name" name="track-name" placeholder="Название трека" required>
+
+            <label for="artist">Исполнитель</label>
+            <input type="text" id="artist" name="artist" placeholder="Исполнитель" required>
+
+            <label for="description">Описание</label>
+            <textarea id="description" name="description" placeholder="Описание" required></textarea>
+
+            <label for="track-image">Изображение трека</label>
+            <input type="text" id="track-image" name="track-image" placeholder="Изображение трека" required>
+
+            <label for="track-file">Файл трека</label>
+            <input type="file" id="track-file" name="track-file" required>
+
+            <button type="submit">Создание поста</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reguster-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.main-reguster {
+    background-color: #4B4B4B;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.reguster-name {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-reguster--bacgraung {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f3f3f;
+    width: 100%;
+    height: 100vh;
+}
+
+.reguster-label {
+    display: flex;
+    gap: 5px;
+    color: #aeaeae;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+}
+
+.reguster-input {
+    background-color: #3f3f3f;
+    border: 1px solid #b0b0b0; 
+    border-radius: 10px;
+    height: 35px;
+    color: #fff;
+    padding: 5px;
+}
+
+.reguster-pasword {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reguster-button {
+    margin-top: 5%;
+    background-color: #727171;
+    width: 170px;
+    height: 35px;
+    border-radius: 15px;
+    border: 0px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.reguster-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
